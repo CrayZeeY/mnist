@@ -6,7 +6,7 @@
 #include "activations.h"
 #include "data.h"
 
-#define EPOCHS     10
+#define EPOCHS     20
 #define BATCH_SIZE 32
 
 static void shuffle(int *indices, int n) {
